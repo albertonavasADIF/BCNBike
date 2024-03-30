@@ -11,5 +11,5 @@ The data for the prototype can be obtained from: https://opendata-ajuntament.bar
 
 The proposed workflow for a real Digital systmem to apply this would consist on:
 
-Ral Time IoT data from stations -> MQTT -> Telegraf -> InfluxDb -> Digital Twn
+Ral Time IoT data from stations -> MQTT -> Telegraf -> InfluxDb -> Digital Twn (Predictive-Optimization/ Prospective-Emulation with Alternative Secenarios / Visualization /etc)
 
