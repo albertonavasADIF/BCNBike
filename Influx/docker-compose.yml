@@ -1,0 +1,30 @@
+version: '2'
+volumes:
+  data-influx:
+    driver: local
+  data-grafana:
+    driver: local
+services:
+  grafana:
+    image: grafana/grafana
+    hostname: grafana
+    environment:
+      GF_AUTH_ANONYMOUS_ENABLED: 'true'
+      GF_SECURITY_ADMIN_PASSWORD: eae
+    volumes:
+    - data-grafana:/var/lib/grafana
+    ports:
+    - 3000:3000/tcp
+  influxdb:
+    image: influxdb
+    hostname: influxdb
+    environment:
+      INFLUXDB_ADMIN_ENABLED: 'true'
+      INFLUXDB_ADMIN_PASSWORD: eae
+      INFLUXDB_USER: telegraf
+      INFLUXDB_USER_PASSWORD: eae
+    volumes:
+    - data-influx:/var/lib/influxdb
+    ports:
+    - 8086:8086/tcp
+    - 8083:8083/tcp
