@@ -1,2 +1,2 @@
 # BCNBike
-Manage Data From Public Bikes of Barcelona
+BigData Infraestructure to Manage Data From Public Bikes Stations
