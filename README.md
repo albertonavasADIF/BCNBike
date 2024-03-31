@@ -21,5 +21,7 @@ Step to run the prototype in an ubuntu system:
  4. from publisher folder: > python3 launch.py
  5. To start Grafana Open a firefox tab and run: localhost:3000
  6. In Grafana Configure DataSource to use InfluxDB puglin (Databae:bike_stations, User:admin, Password:eae)
- 8. In Grafana upload dashboard 'Bike Stations-nnnnnnnnnnn.json' from the grafana folder 
+ 8. In Grafana upload dashboard 'Bike Stations-nnnnnnnnnnn.json' from the grafana folder
+
+
 ![image](https://github.com/albertonavasADIF/BCNBike/assets/151659651/229b82f4-9d9c-4173-ae0a-50943e97d081)
