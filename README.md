@@ -19,5 +19,6 @@ Step to run the prototype in an ubuntu system:
  2. from mosquitto folder: > sh init_grafana.sh
  3. from telegraf folder: > sh init_grafana.sh
  4. from publisher folder: > python3 launch.py
- 5. for visualize data on Grafana Open a firefox tab and run: localhost:3000
- 6. In Grafana upload dashboard 'Bike Stations-nnnnnnnnnnn.json' from the grafana folder 
+ 5. To start Grafana Open a firefox tab and run: localhost:3000
+ 6. In Grafana Configure DataSource to use InfluxDB puglin (Databae:bike_stations, User:admin, Password:eae)
+ 8. In Grafana upload dashboard 'Bike Stations-nnnnnnnnnnn.json' from the grafana folder 
