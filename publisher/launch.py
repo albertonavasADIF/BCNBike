@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Mar 24 16:58:36 2024
+Created on feb 18 16:58:36 2024
 
-@author: alber
+@author: alberto navas
 """
 
 import asyncio
@@ -78,7 +78,7 @@ while numline < MAXLINESTOREAD:
     numline = numline + 1
 
 """
-function to execute the publisher for each Id in asyncronus mode
+Agrregate values
 """
 AB_p = 0
 AS_p = 0
